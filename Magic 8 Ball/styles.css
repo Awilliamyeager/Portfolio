@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+h1{
+    color: white;
+}
+#outer-ring{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    z-index: 10;
+}
+#inner-ring{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+ #text{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+button{
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translate(-80%, -60%);
+    height: 40px;
+    width: 130px;
+    background-color: orange;
+    border-radius: 10px;
+    border-color: orange;
+}
